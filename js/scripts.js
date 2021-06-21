@@ -130,7 +130,7 @@ $(function() {
 ***************************************************/
 	$(document).ready(function ()
 		{
-         	var austDay = new Date("January 1, 2019");
+         	var austDay = new Date("January 1, 2022");
             $('#launch_date').countdown(
         {
             until: austDay,
