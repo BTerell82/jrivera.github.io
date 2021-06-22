@@ -187,7 +187,7 @@ function SineWaveGenerator(options) {
 }
 
 // Defaults
-SineWaveGenerator.prototype.speed = -4;
+SineWaveGenerator.prototype.speed = 10;
 SineWaveGenerator.prototype.amplitude = 50;
 SineWaveGenerator.prototype.wavelength = 50;
 SineWaveGenerator.prototype.segmentLength = 10;
@@ -349,10 +349,10 @@ new SineWaveGenerator({
    // Wave Colours
   resizeEvent: function() {
     var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
-    gradient.addColorStop(0,"rgba(112, 18, 18, 0)");
-    gradient.addColorStop(0.5,"rgba(112, 18, 18, 1)");
-    gradient.addColorStop(1,"rgba(112, 18, 18, 0)");
-    
+    gradient.addColorStop(0,"rgba(92, 24, 143, 0)");
+    gradient.addColorStop(0.5,"rgba(92, 24, 143, 1)");
+    gradient.addColorStop(1,"rgba(92, 24, 143, 0)");
+        
     var index = -1;
     var length = this.waves.length;
 	  while(++index < length){
