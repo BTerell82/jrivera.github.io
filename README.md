@@ -1,2 +1,0 @@
-# jrivera.github.io
- 
