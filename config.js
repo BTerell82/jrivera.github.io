@@ -7,7 +7,7 @@
 		// ------------------
 		// BACKGROUND : STRING
 
-		background:'assets/img/weather/blackwydow6.png'
+		background:'assets/img/weather/24.jpg'
 
 	}
 
